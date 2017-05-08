@@ -42,7 +42,6 @@ int main() {
 	cout << "[2] Decryption" << endl;
 	cin >> flag;
 
-
 	switch (flag) {
 		case 1 :
 			cout << encryption(text, key);
